@@ -1,11 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import DialogContent from '@material-ui/core/DialogContent';
-import DialogActions from '@material-ui/core/DialogActions';
-import { Box, Container, Typography } from '@material-ui/core';
+import { Button, Dialog, DialogTitle, DialogContent, DialogActions, Box, Container, Typography } from '@mui/material';
 
 const History = () => {
   const [open, setOpen] = useState(false);

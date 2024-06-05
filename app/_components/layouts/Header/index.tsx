@@ -1,6 +1,5 @@
-'use client'
 import Link from 'next/link';
-import { AppBar, Toolbar, Button, Box } from '@material-ui/core';
+import { AppBar, Toolbar, Button, Box } from '@mui/material';
 
 const Header = () => {
   return (

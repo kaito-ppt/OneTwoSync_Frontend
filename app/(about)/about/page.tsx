@@ -1,5 +1,4 @@
-"use client";
-import { Box, Container, Typography } from "@material-ui/core";
+import { Box, Container, Typography } from "@mui/material";
 import History from "./_components/History";
 import Team from "./_components/Team";
 

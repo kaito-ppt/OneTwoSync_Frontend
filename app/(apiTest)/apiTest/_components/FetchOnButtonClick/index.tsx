@@ -8,7 +8,7 @@ import {
   List,
   ListItem,
   ListItemText,
-} from "@material-ui/core";
+} from "@mui/material";
 import { fetchPosts } from "@/features/apiTest/api/fetchPosts";
 
 const FetchOnButtonClick = () => {

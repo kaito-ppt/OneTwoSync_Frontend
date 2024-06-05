@@ -4,7 +4,7 @@ import FetchForm from "./_components/FetchForm";
 import FetchOnButtonClick from "./_components/FetchOnButtonClick";
 import FetchOnLoad from "./_components/FetchOnLoad";
 import React, { ReactElement, useEffect, useState } from "react";
-import { Container, Typography, Box } from "@material-ui/core";
+import { Container, Typography, Box } from "@mui/material";
 import { fetchPosts } from "@/features/apiTest/api/fetchPosts";
 
 // Postの型定義

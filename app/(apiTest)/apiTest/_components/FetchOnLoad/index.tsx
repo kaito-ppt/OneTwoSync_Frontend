@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { Container, Typography, Button, List, ListItem, ListItemText } from '@material-ui/core';
+import { Container, Typography, Button, List, ListItem, ListItemText } from '@mui/material';
 
 // Postの型定義
 interface Post {

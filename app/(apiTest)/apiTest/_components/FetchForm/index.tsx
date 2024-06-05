@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Button, TextField, Container, Typography, Card, CardContent, Box } from '@material-ui/core';
+import { Button, TextField, Container, Typography, Card, CardContent, Box } from '@mui/material';
 import { handleSubmit } from '@/features/apiTest/api/handleSubmit';
 
 const FetchForm = () => {

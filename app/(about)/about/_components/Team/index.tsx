@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Box,Button,TextField,Typography,CardContent,Card, Container } from "@material-ui/core";
+import { Box,Button,TextField,Typography,CardContent,Card, Container } from "@mui/material";
 
 const Team = () => {
   const [name, setName] = useState("");
