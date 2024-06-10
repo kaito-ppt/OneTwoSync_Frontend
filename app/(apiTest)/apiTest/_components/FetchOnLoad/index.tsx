@@ -21,7 +21,7 @@ const FetchOnLoad: React.FC<Props> = ({ posts }) => {
   const safePosts = posts ?? [];
 
   // 全ての投稿の表示状態を管理するstate
-  const [allOpen, setAllOpen] = useState<boolean>(true);
+  const [allOpen, setAllOpen] = useState<boolean>(false);
 
   return (
     <Container>

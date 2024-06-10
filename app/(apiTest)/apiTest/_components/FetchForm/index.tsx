@@ -21,22 +21,22 @@ const FetchForm = () => {
         Create a Post
       </Typography>
       <form onSubmit={handleButtonClick}>
+      <Box sx={{ display: 'flex', flexDirection: 'row' }}>
         <TextField
           label="Title"
           value={title}
           onChange={e => setTitle(e.target.value)}
-          margin="normal"
         />
         <TextField
           label="Body"
           value={body}
           onChange={e => setBody(e.target.value)}
-          margin="normal"
           multiline
         />
         <Button type="submit" variant="contained" color="primary">
           Submit
         </Button>
+      </Box>
       </form>
       {response && (
         <Card variant="outlined" style={{ marginTop: '16px' }}>

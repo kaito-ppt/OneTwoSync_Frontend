@@ -31,7 +31,7 @@ const FetchOnButtonClick = () => {
       <Typography variant="h5" component="h2" gutterBottom>
         Posts on Button Click
       </Typography>
-      <Button variant="contained" color="primary" onClick={handleButtonClick}>
+      <Button variant={!isHidden ? 'outlined' : 'contained'} color="primary" onClick={handleButtonClick}>
         {isHidden ? "Show Posts" : "Hide Posts"}
       </Button>
       {!isHidden && (
